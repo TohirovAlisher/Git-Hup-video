@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: #a44ce2;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#header h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+body {
+    background-image: url(../RASM/rasm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu-bar {
+    background: rgb(53, 53, 122);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.menu-bar ul li {
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #a44ce2;
+    border-radius: 3px;
+}
